@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Util"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/jctp_src/jctp-win32_x64-6.3.0/jars/jctp-win32_x64-6.3.0-1.6.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/jctp_src/jctp-win32_x64-6.3.0/jars/jctp-win32_x64-6.3.0-1.8.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/jctp_src/jctp-win32_x64-6.3.0/jars/jctp-win32_x64-6.3.0-src.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/jctp_src/jctp-win32_x64-6.3.0/jars/jtrader-common.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/jctp_src/jctp-win32_x64-6.3.0/jars/jtrader-common-docs.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/jctp_src/jctp-win32_x64-6.3.0/jars/jtrader-common-src.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/lib/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/lib/fastjson-1.1.28.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
