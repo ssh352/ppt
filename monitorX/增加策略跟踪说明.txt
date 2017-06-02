@@ -1,0 +1,10 @@
+
+
+（1）产生每周调仓组合到 X:\share\Kevin\Port
+（2）调用 E:\DP\DpRepo\R\StrategyPerformance\LoadBasket_manual.R 加载组到 paperportfoilo.dbo.Basket
+（3）调用 E:\DP\DpRepo\R\StrategyPerformance\CalcPortRet_manual.R， 计算每日收益
+（4）[paperportfoilo].[dbo].[getscodelist] 增加对应策略ID
+（5）E:\DP\DpRepo\Project X\nodejs\sandbox\rio\public\js\main.js 增加策略对应BenchMark，策略对应名称
+（6）数据库执行 "exec paperportfoilo.dbo.delrepeatperformance"
+（7）dphelper.constant.R 增加策略对应名称
+（8）

@@ -1,0 +1,1 @@
+start "" "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "192.168.1.227:8081/init.htm"

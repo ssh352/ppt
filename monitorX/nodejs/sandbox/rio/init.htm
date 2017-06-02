@@ -1,0 +1,151 @@
+﻿<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script>
+			$(document).ready(function () {
+				var url = "/Rfunc?cmd=setwd('E:/DP/DpRepo/R')&filename="
+				$.get(url, function(ret, status){
+					$("#msg").append("finish setwd<br/>");
+				})
+
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/CalcPerformance.R";
+				$.get(url, function(ret, status){
+				    $("#msg").append("finish load CalcPerformance script<br/>");
+				})
+
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/GetPortID.R";
+				$.get(url, function (ret, status) {
+				    $("#msg").append("finish load GetPortID script<br/>");
+				})
+
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/statisticportindustry.R";
+				$.get(url, function(ret, status){
+				    $("#msg").append("finish load statisticportindustry script<br/>");
+				})
+
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/calcfundnav.R";
+				$.get(url, function(ret, status){
+				    $("#msg").append("finish load calcfundnav script<br/>");
+				})
+
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/MaxTenWeight.R";
+				$.get(url, function (ret, status) {
+				    $("#msg").append("finish load MaxTenWeight script<br/>");
+				})
+
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/calcrisk.R";
+				$.get(url, function(ret, status){
+				    $("#msg").append("finish load calcrisk script<br/>");
+				})
+				
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/getcomponentmkv.R";
+				$.get(url, function(ret, status){
+				    $("#msg").append("finish load getcomponentmkv script<br/>");
+				})
+				
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/industrychange.R";
+				$.get(url, function(ret, status){
+				    $("#msg").append("finish load industrychange script<br/>");
+				})
+				
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/getportstyle.R";
+				$.get(url, function(ret, status){
+				    $("#msg").append("finish load getportstyle script<br/>");
+				})
+				
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/option.R";
+				$.get(url, function(ret, status){
+				    $("#msg").append("finish load option script<br/>");
+				})
+
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/getprocessdetails.R";
+				$.get(url, function(ret, status){
+				    $("#msg").append("finish load getprocessdetails script<br/>");
+				})
+				
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/s_portexdret.R";
+				$.get(url, function(ret, status){
+				    $("#msg").append("finish load s_portexdret script<br/>");
+				})	
+				
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/product/p_statisticportindustry.R";
+				$.get(url, function(ret, status){
+				    $("#msg").append("finish load p_statisticportindustry script<br/>");
+				})	
+
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/product/p_statisticportindustry.R";
+				$.get(url, function (ret, status) {
+				    $("#msg").append("finish load p_statisticportindustry script<br/>");
+				})
+
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/product/p_caclperformance.R";
+				$.get(url, function (ret, status) {
+				    $("#msg").append("finish load p_caclperformance script<br/>");
+				})
+				
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/product/p_getnav.R";
+				$.get(url, function (ret, status) {
+				    $("#msg").append("finish load p_getnav script<br/>");
+				})
+
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/theme/monitorWI.R";
+				$.get(url, function (ret, status) {
+				    $("#msg").append("finish load monitorWI script<br/>");
+				})
+
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/theme/windtheme.R";
+				$.get(url, function (ret, status) {
+				    $("#msg").append("finish load windtheme script<br/>");
+				})
+				
+				
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/traceStrategy/ExecutiveHoldingChange.R";
+				$.get(url, function (ret, status) {
+				    $("#msg").append("finish load ExecutiveHoldingChange script<br/>");
+				})
+
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/traceStrategy/Dgdzjc.R";
+				$.get(url, function (ret, status) {
+				    $("#msg").append("finish load Dgdzjc script<br/>");
+				})				
+				
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/product/p_TurnRation.R";
+				$.get(url, function (ret, status) {
+				    $("#msg").append("finish load p_TurnRation script<br/>");
+				})
+				
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/MacroIndicator/MacroIndicator.R";
+				$.get(url, function (ret, status) {
+				    $("#msg").append("finish load MacroIndicator script<br/>");
+				})
+								
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/calcBeta.R";
+				$.get(url, function (ret, status) {
+				    $("#msg").append("finish load calcBeta script<br/>");
+				})
+				
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/StrategyPerformance/etf/s_etf.R";
+				$.get(url, function (ret, status) {
+				    $("#msg").append("finish load s_etf script<br/>");
+				})
+				
+				/*var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/func/registeruser.R";
+				$.get(url, function(ret, status){
+				    $("#msg").append("finish load registeruser script<br/>");
+				})				
+				
+				var url = "/Rfunc?cmd=&filename=E:/DP/DpRepo/R/func/login.R";
+				$.get(url, function(ret, status){
+				    $("#msg").append("finish load login script<br/>");
+				})*/
+				
+	
+			})
+		</script>
+	</head>
+	<body>
+		<div id="msg">
+		</div>
+	</body>
+</html>

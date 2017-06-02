@@ -1,0 +1,101 @@
+<div class="layout" id="Macro_Minitor_Div" style="height:100%; width:1500px">
+	<div class="layout" style="height:60px; margin:4px 7px 2px 4px;">
+		<form>
+            <input type="button" id="Macro_Button_shibor" value="SHIBOR" />
+            <input type="button" id="Macro_Button_GC001" value="GC001" />
+            <input type="button" id="Macro_Button20" value="指数夏普比率" />
+			<input type="button" id="Macro_Button1" value="申万一级行业偏离" />
+			<input type="button" id="Macro_Button3" value="申万一级行业偏离" />
+			<input type="button" id="Macro_Button2" value="中证800偏离" />
+			<input type="button" id="Macro_Button4" value="HS300波动率" />
+			<input type="button" id="Macro_Button5" value="ZZ500波动率" />
+			<input type="button" id="Macro_Button6" value="SZ50波动率" />
+			<input type="button" id="Macro_Button7" value="中证500/上证50" />
+			<input type="button" id="Macro_Button11" value="中证500/上证50(3m)" />
+			<input type="button" id="Macro_Button8" value="HS300累计换手率" />
+			<input type="button" id="Macro_Button9" value="ZZ500累计换手率" />
+			<input type="button" id="Macro_Button10" value="SZ50累计换手率" />
+			<br/>
+			<br/>
+			<input type="button" id="Macro_Button12" value="A50/SZ50" />
+			<input type="button" id="Macro_Button13" value="A50/SZ50(3m)" />
+			<input type="button" id="Macro_Button14" value="AH股溢价指数" />
+			<input type="button" id="Macro_Button15" value="AH股溢价指数(3m)" />
+			<input type="button" id="Macro_Button16" value="沪股通资金净流入" />
+			<input type="button" id="Macro_Button17" value="港股通资金净流入" />
+            <input type="button" id="Macro_Button18" value="CNY/CNH" />
+            <input type="button" id="Macro_Button19" value="CNY/CNH(3m)" />
+            
+			
+		</form>
+	</div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    
+    <div class="layout" style=" height: 67px; margin:4px 7px 2px 4px">
+			<span class="item">指数夏普率</span><br/>
+			<div id="sharpe_div" style="width:100%; height:92%"></div>
+	</div>
+    
+    <div class="layout" style=" width: 100%; height: 450px; margin:4px 7px 2px 4px;">
+		<span class="item">SHIBOR/GC001</span><br/>
+		<div class="layout" id="shibor_chart_div" style="float:left; width: 40%; height:92%; margin:15px 7px 2px 4px;"></div>
+		<div class="layout" id="gc001_chart_div" style="float:left; width: 50%; height:92%; margin:15px 7px 2px 4px;"></div>
+	</div>
+    
+    <br/><br/><br/>
+	<div class="layout" style=" width: 100%; height: 450px; margin:4px 7px 2px 4px;">
+		<span class="item">1 申万行业偏离</span><br/>
+		<div class="layout" id="sw1_sd_chart_div" style="float:left; width: 50%; height:92%; margin:15px 7px 2px 4px;"></div>
+		<div class="layout" id="sw2_sd_chart_div" style="float:left; width: 48%; height:92%; margin:15px 7px 2px 4px;"></div>
+	</div>	
+	
+	<div class="layout" style=" width: 100%; height: 450px; margin:4px 7px 2px 4px;">
+		<span class="item">2 中证800偏离</span><br/>
+		<div class="layout" id="zz800_sd_chart_div" style="float:left; width: 50%; height:92%; margin:15px 7px 2px 4px;"></div>
+	</div>	
+	
+	<div class="layout" style=" width: 100%; height: 450px; margin:4px 7px 2px 4px;">
+		<span class="item">3 波动率</span><br/>
+		<div class="layout" id="hs300_vol_chart_div" style="float:left; width: 32%; height:92%; margin:15px 7px 2px 4px;"></div>
+		<div class="layout" id="zz500_vol_chart_div" style="float:left; width: 32%; height:92%; margin:15px 7px 2px 4px;"></div>
+		<div class="layout" id="sz50_vol_chart_div" style="float:left; width: 32%; height:92%; margin:15px 7px 2px 4px;"></div>
+	</div>
+	
+	<div class="layout" style=" width: 100%; height: 450px; margin:4px 7px 2px 4px;">
+		<span class="item">4 中证500/上证50</span><br/>
+		<div class="layout" id="zz500/sz50_chart_div" style="float:left; width: 40%; height:92%; margin:15px 7px 2px 4px;"></div>
+		<div class="layout" id="zz500/sz50_3m_chart_div" style="float:left; width: 50%; height:92%; margin:15px 7px 2px 4px;"></div>
+	</div>
+	<div class="layout" style=" width: 100%; height: 450px; margin:4px 7px 2px 4px;">
+		<span class="item">5 累计换手率</span><br/>
+		<div class="layout" id="hs300_turnover_chart_div" style="float:left; width: 32%; height:92%; margin:15px 7px 2px 4px;"></div>
+		<div class="layout" id="zz500_turnover_chart_div" style="float:left; width: 32%; height:92%; margin:15px 7px 2px 4px;"></div>
+		<div class="layout" id="sz50_turnover_chart_div" style="float:left; width: 32%; height:92%; margin:15px 7px 2px 4px;"></div>
+	</div>
+	<div class="layout" style=" width: 100%; height: 450px; margin:4px 7px 2px 4px;">
+		<span class="item">6 A50/上证50</span><br/>
+		<div class="layout" id="A50/sz50_chart_div" style="float:left; width: 40%; height:92%; margin:15px 7px 2px 4px;"></div>
+		<div class="layout" id="A50/sz50_3m_chart_div" style="float:left; width: 50%; height:92%; margin:15px 7px 2px 4px;"></div>
+	</div>
+	<div class="layout" style=" width: 100%; height: 450px; margin:4px 7px 2px 4px;">
+		<span class="item">7 AH股溢价指数</span><br/>
+		<div class="layout" id="AH_chart_div" style="float:left; width: 40%; height:92%; margin:15px 7px 2px 4px;"></div>
+		<div class="layout" id="AH_3m_chart_div" style="float:left; width: 50%; height:92%; margin:15px 7px 2px 4px;"></div>
+	</div>
+	<div class="layout" style=" width: 100%; height: 450px; margin:4px 7px 2px 4px;">
+		<span class="item">8 沪港通资金净流入</span><br/>
+		<div class="layout" id="hugutong_chart_div" style="float:left; width: 40%; height:92%; margin:15px 7px 2px 4px;"></div>
+		<div class="layout" id="ganggutong_chart_div" style="float:left; width: 40%; height:92%; margin:15px 7px 2px 4px;"></div>
+	</div>
+    <div class="layout" style=" width: 100%; height: 450px; margin:4px 7px 2px 4px;">
+		<span class="item">9 CNY/CNH</span><br/>
+		<div class="layout" id="cnycnh_chart_div" style="float:left; width: 40%; height:92%; margin:15px 7px 2px 4px;"></div>
+		<div class="layout" id="cnycnh_3m_chart_div" style="float:left; width: 50%; height:92%; margin:15px 7px 2px 4px;"></div>
+	</div>
+</div>
