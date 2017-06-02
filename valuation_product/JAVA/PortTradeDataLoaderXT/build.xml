@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project PortTradeDataLoaderXT with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="C:/Users/lenovo/workspace"/>
+    <property name="dir.jarfile" value="${dir.buildfile}"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/PortTradeDataLoaderXT.jar">
+            <manifest>
+                <attribute name="Main-Class" value="com.port.monitor.PortMonitor"/>
+                <attribute name="Class-Path" value=". PortTradeDataLoaderXT_lib/commons-codec-1.9.jar PortTradeDataLoaderXT_lib/commons-configuration-1.10.jar PortTradeDataLoaderXT_lib/commons-lang-2.6.jar PortTradeDataLoaderXT_lib/commons-logging-1.1.3.jar PortTradeDataLoaderXT_lib/fastjson-1.1.28.jar PortTradeDataLoaderXT_lib/javadbf.4.1.jar PortTradeDataLoaderXT_lib/javax.mail.jar PortTradeDataLoaderXT_lib/sqljdbc4.jar PortTradeDataLoaderXT_lib/poi-3.12-20150511.jar PortTradeDataLoaderXT_lib/commons-io-2.4.jar PortTradeDataLoaderXT_lib/log4j-1.2.17.jar PortTradeDataLoaderXT_lib/JRI.jar PortTradeDataLoaderXT_lib/JRIEngine.jar PortTradeDataLoaderXT_lib/REngine.jar PortTradeDataLoaderXT_lib/mysql-connector-java-5.1.34-bin.jar PortTradeDataLoaderXT_lib/zmq.jar PortTradeDataLoaderXT_lib/jctp-win32_x64-6.3.0-1.6.jar PortTradeDataLoaderXT_lib/jctp-win32_x64-6.3.0-1.8.jar PortTradeDataLoaderXT_lib/jctp-win32_x64-6.3.0-src.jar PortTradeDataLoaderXT_lib/jtrader-common.jar PortTradeDataLoaderXT_lib/jtrader-common-docs.jar PortTradeDataLoaderXT_lib/jtrader-common-src.jar PortTradeDataLoaderXT_lib/junit-4.11.jar PortTradeDataLoaderXT_lib/xercesImpl.jar"/>
+            </manifest>
+            <fileset dir="${dir.jarfile}/bin"/>
+            <fileset dir="E:/DP/DpRepo/java/Util/bin"/>
+            <fileset dir="E:/DP/DpRepo/java/xBaseJ/bin"/>
+        </jar>
+        <delete dir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <mkdir dir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/commons-codec-1.9.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/commons-configuration-1.10.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/commons-lang-2.6.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/commons-logging-1.1.3.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/fastjson-1.1.28.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/javadbf.4.1.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/javax.mail.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/sqljdbc4.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/poi-3.12-20150511.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/commons-io-2.4.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/log4j-1.2.17.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/rjava/JRI.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/rjava/JRIEngine.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/rjava/REngine.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/mysql-connector-java-5.1.34-bin.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/jzmq/4.0.5/x64/release/zmq.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/jctp_src/jctp-win32_x64-6.3.0/jars/jctp-win32_x64-6.3.0-1.6.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/jctp_src/jctp-win32_x64-6.3.0/jars/jctp-win32_x64-6.3.0-1.8.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/jctp_src/jctp-win32_x64-6.3.0/jars/jctp-win32_x64-6.3.0-src.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/jctp_src/jctp-win32_x64-6.3.0/jars/jtrader-common.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/jctp_src/jctp-win32_x64-6.3.0/jars/jtrader-common-docs.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/jctp_src/jctp-win32_x64-6.3.0/jars/jtrader-common-src.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/junit-4.11.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+        <copy file="E:/DP/DpRepo/java/lib/xercesImpl.jar" todir="${dir.jarfile}/PortTradeDataLoaderXT_lib"/>
+    </target>
+</project>

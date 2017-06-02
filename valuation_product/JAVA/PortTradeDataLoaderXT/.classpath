@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/lib/commons-configuration-1.10.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/lib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/lib/fastjson-1.1.28.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/lib/javadbf.4.1.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/lib/javax.mail.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/lib/sqljdbc4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/lib/poi-3.12-20150511.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="E:/DP/DpRepo/java/lib/log4j-1.2.17.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Util"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
