@@ -1,0 +1,75 @@
+
+
+信号计算：
+	R  			402ms
+	python  	400ms
+	C++			200ms
+	java call R 200ms
+
+Exp:	
+	(1) 计算信号 						212ms
+		信号计算完成					1472173247372
+	(2) leg1[y1701] JCTP 完成下单操作	1472173247376
+		leg2[OI701] JCTP 完成下单操作	1472173247385
+	(3)	leg1 全部成交					1472173247791
+		leg2 全部成交					1472173248450
+	
+Con：
+	信号计算		212ms
+	信号及交易执行	13ms
+	leg1 下单——成交	415ms
+	leg2 下单——成交	1065ms
+	
+	
+
+交易时间分析：
+OPEN LONG LEG1 
+holding: 0, 
+
+
+miu: 0.990085, sd: 0.000269, 
+upLimit: 0.990622, donwLimit: 0.989547, 
+upSignal: 0.988679, downSignal: 0.989305,
+ 
+InStr1Price: 6290.000000, InStr2Price: 6358.000000, 
+
+
+upSignal 	= InStr1BID1/InStr2ASK1 = 6288/6360 = 0.9886792
+downSignal 	= InStr1ASK1/InStr2BID1 = 6290/6358 = 0.9893048【 -2.900372】
+tradedSignal= 6290/6356 = 0.9896161【 -1.743123】
+
+InStr1BID1: 6288.000000, InStr1ASK1: 6290.000000, 
+InStr2BID1: 6358.000000, InStr2ASK1: 6360.000000
+
+
+
+计算完信号：			1472449497540
+Leg1交易触发：			1472449497541
+Leg2交易触发：			1472449497542
+Leg1成交：				1472449497611
+Leg2成交：				1472449497645
+
+
+	
+--TODO
+	(1) 一个EMS配置多个 ArithmeticTrade
+	(2) ArithmeticTrade 增加order队列，不通过EMS调用达到下单目的
+	(3) 下单往不利的方向偏2个最小单位，达到快速成交的目的
+	
+	
+策略筛选：
+head(ret[order((ret$Win/100 * ret$MWRet + (1 - ret$Win/100) * ret$MLRet) * ret$Corr / ret$UP, decreasing = T), ], 30)
+!grepl("RS", ret$startegy) &
+!grepl("SF", ret$startegy) &
+!grepl("SM", ret$startegy) &
+!grepl("BB", ret$startegy) &
+!grepl("SN", ret$startegy) &
+!grepl("RI", ret$startegy) &
+!grepl("JR", ret$startegy) &
+!grepl("FB", ret$startegy) &
+!grepl("WR", ret$startegy) &
+!grepl("FU", ret$startegy) 
+
+
+
+

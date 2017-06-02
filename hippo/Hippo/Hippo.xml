@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project Hippo with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="E:/DP/DpRepo/java/Hippo/release/Hippo.jar">
+            <manifest>
+                <attribute name="Main-Class" value="com.dp.quant.DpQuant"/>
+                <attribute name="Class-Path" value=". Hippo_lib/jctp-win32_x86-6.3.6_20141230-docs.jar Hippo_lib/jctp-win32_x86-6.3.6_20141230-src.jar Hippo_lib/jtrader-common-docs.jar Hippo_lib/jtrader-common-src.jar Hippo_lib/jtrader-common.jar Hippo_lib/fastjson-1.1.28.jar Hippo_lib/log4j-1.2.17.jar Hippo_lib/mysql-connector-java-5.1.34-bin.jar Hippo_lib/opencsv-2.3.jar Hippo_lib/sqljdbc4.jar Hippo_lib/tdfapi.jar Hippo_lib/zmq.jar Hippo_lib/commons-lang-2.6.jar Hippo_lib/jctp-win32_x86-6.3.6_20141230-1.6.jar Hippo_lib/JRI.jar Hippo_lib/JRIEngine.jar Hippo_lib/REngine.jar Hippo_lib/log4j-1.2.17.jar Hippo_lib/zmq.jar Hippo_lib/jctp-win32_x86-6.3.6_20141230-1.6.jar Hippo_lib/jctp-win32_x86-6.3.6_20141230-docs.jar Hippo_lib/jctp-win32_x86-6.3.6_20141230-src.jar Hippo_lib/jtrader-common-docs.jar Hippo_lib/jtrader-common-src.jar Hippo_lib/jtrader-common.jar Hippo_lib/commons-lang-2.6.jar Hippo_lib/fastjson-1.1.28.jar Hippo_lib/javax.mail.jar Hippo_lib/log4j-1.2.17.jar Hippo_lib/mysql-connector-java-5.1.34-bin.jar Hippo_lib/jctp-win32_x86-6.3.6_20141230-1.8.jar Hippo_lib/jctp-win32_x86-6.3.6_20141230-docs.jar Hippo_lib/jctp-win32_x86-6.3.6_20141230-src.jar Hippo_lib/jtrader-common-docs.jar Hippo_lib/jtrader-common-src.jar Hippo_lib/jtrader-common.jar Hippo_lib/log4j-1.2.17.jar Hippo_lib/opencsv-2.3.jar Hippo_lib/tdfapi.jar Hippo_lib/fastjson-1.1.28.jar Hippo_lib/zmq.jar"/>
+            </manifest>
+            <fileset dir="E:/DP/DpRepo/java/Hippo/bin"/>
+            <fileset dir="E:/DP/DpRepo/java/Jctp/bin"/>
+            <fileset dir="E:/DP/DpRepo/java/dpUtil/bin"/>
+            <fileset dir="E:/DP/DpRepo/java/HippoUtil/bin"/>
+        </jar>
+        <delete dir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+    	<delete dir="E:/DP/DpRepo/java/Hippo/release/conf"/>
+        <mkdir dir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+    	<mkdir dir="E:/DP/DpRepo/java/Hippo/release/conf"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/jctp-win32_x86-6.3.6_20141230-docs.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/jctp-win32_x86-6.3.6_20141230-src.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/jtrader-common-docs.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/jtrader-common-src.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/jtrader-common.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/fastjson-1.1.28.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/log4j-1.2.17.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/mysql-connector-java-5.1.34-bin.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/opencsv-2.3.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/sqljdbc4.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/tdfapi.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/zmq.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/commons-lang-2.6.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/jctp-win32_x86-6.3.6_20141230-1.6.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/JRI.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/JRIEngine.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Hippo/REngine.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Jctp/log4j-1.2.17.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Jctp/zmq.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Jctp/jctp-win32_x86-6.3.6_20141230-1.6.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Jctp/jctp-win32_x86-6.3.6_20141230-docs.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Jctp/jctp-win32_x86-6.3.6_20141230-src.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Jctp/jtrader-common-docs.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Jctp/jtrader-common-src.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/Jctp/jtrader-common.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/dpUtil/commons-lang-2.6.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/dpUtil/fastjson-1.1.28.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/dpUtil/javax.mail.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/dpUtil/log4j-1.2.17.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/dpUtil/mysql-connector-java-5.1.34-bin.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/HippoUtil/jctp-win32_x86-6.3.6_20141230-1.8.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/HippoUtil/jctp-win32_x86-6.3.6_20141230-docs.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/HippoUtil/jctp-win32_x86-6.3.6_20141230-src.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/HippoUtil/jtrader-common-docs.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/HippoUtil/jtrader-common-src.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/HippoUtil/jtrader-common.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/HippoUtil/log4j-1.2.17.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/HippoUtil/opencsv-2.3.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/HippoUtil/tdfapi.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/HippoUtil/fastjson-1.1.28.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+        <copy file="E:/DP/DpRepo/java/HippoUtil/zmq.jar" todir="E:/DP/DpRepo/java/Hippo/release/Hippo_lib"/>
+    	<copy file="E:/DP/DpRepo/java/Hippo/conf/config.properties" todir="E:/DP/DpRepo/java/Hippo/release/conf"/>
+    	<copy file="E:/DP/DpRepo/java/Hippo/conf/log4j.properties" todir="E:/DP/DpRepo/java/Hippo/release/conf"/>
+		<copy file="E:/DP/DpRepo/java/Hippo/conf/s_au2ag.properties" todir="E:/DP/DpRepo/java/Hippo/release/conf"/>
+		<copy file="E:/DP/DpRepo/java/Hippo/conf/s_basisarbic00_ic03.properties" todir="E:/DP/DpRepo/java/Hippo/release/conf"/>
+		<copy file="E:/DP/DpRepo/java/Hippo/conf/s_basisarbitrage.properties" todir="E:/DP/DpRepo/java/Hippo/release/conf"/>
+		<copy file="E:/DP/DpRepo/java/Hippo/conf/s_ic_ih_arbitrage.properties" todir="E:/DP/DpRepo/java/Hippo/release/conf"/>
+		<copy file="E:/DP/DpRepo/java/Hippo/conf/s_p2oi.properties" todir="E:/DP/DpRepo/java/Hippo/release/conf"/>
+		<copy file="E:/DP/DpRepo/java/Hippo/conf/s_y2oi.properties" todir="E:/DP/DpRepo/java/Hippo/release/conf"/>
+		<copy file="E:/DP/DpRepo/java/Hippo/conf/s_y2p.properties" todir="E:/DP/DpRepo/java/Hippo/release/conf"/>
+    	<copy file="E:/DP/DpRepo/java/Hippo/conf/s_i2rb.properties" todir="E:/DP/DpRepo/java/Hippo/release/conf"/>
+    	<copy file="E:/DP/DpRepo/java/Hippo/conf/s_i2zc.properties" todir="E:/DP/DpRepo/java/Hippo/release/conf"/>
+    	<copy file="E:/DP/DpRepo/java/Hippo/conf/s_i2hc.properties" todir="E:/DP/DpRepo/java/Hippo/release/conf"/>
+    	<copy file="E:/DP/DpRepo/java/Hippo/conf/s_sreverse.properties" todir="E:/DP/DpRepo/java/Hippo/release/conf"/>
+    </target>
+</project>

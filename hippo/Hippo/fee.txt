@@ -1,0 +1,11 @@
+I 		Open: 13.86 Close: 13.86	
+RB		Open: 2.55	Close: 2.57  
+HC		Open: 2.79	Close: 2.79
+J		Open: 88.86 Close: 88.86
+
+I2RB limit sd: 67.82
+I2HC limit sd: 68.5
+J3HC limit sd: 183.3	
+
+
+
