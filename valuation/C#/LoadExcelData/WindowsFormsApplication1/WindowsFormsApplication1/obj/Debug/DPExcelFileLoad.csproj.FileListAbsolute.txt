@@ -1,0 +1,52 @@
+d:\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DPExcelFileLoad.csprojResolveAssemblyReference.cache
+d:\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DPExcelFileLoad.Form1.resources
+d:\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+d:\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DPExcelFileLoad.csproj.GenerateResource.Cache
+d:\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+d:\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+d:\Documents\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+G:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+G:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+G:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+G:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+G:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+G:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DPExcelFileLoad.csprojResolveAssemblyReference.cache
+G:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+G:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+G:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DPExcelFileLoad.csproj.GenerateResource.Cache
+C:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DPExcelFileLoad.csprojResolveAssemblyReference.cache
+C:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DPExcelFileLoad.csproj.GenerateResource.Cache
+D:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DPExcelFileLoad.csprojResolveAssemblyReference.cache
+D:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\workspace\DP\J_交易数据导入\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DPExcelFileLoad.csproj.GenerateResource.Cache
+D:\workspace\DP\J_交易数据导入\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\workspace\DP\J_交易数据导入\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\workspace\DP\J_交易数据导入\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\workspace\DP\J_交易数据导入\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\workspace\DP\J_交易数据导入\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\workspace\DP\J_交易数据导入\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DPExcelFileLoad.csprojResolveAssemblyReference.cache
+D:\workspace\DP\J_交易数据导入\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\workspace\DP\J_交易数据导入\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\workspace\DP\J_交易数据导入\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DPExcelFileLoad.csproj.GenerateResource.Cache
+D:\workspace\DP\SRC\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\workspace\DP\SRC\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\workspace\DP\SRC\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\workspace\DP\SRC\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\workspace\DP\SRC\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\workspace\DP\SRC\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DPExcelFileLoad.csprojResolveAssemblyReference.cache
+D:\workspace\DP\SRC\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\workspace\DP\SRC\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\workspace\DP\SRC\LoadExcelData\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DPExcelFileLoad.csproj.GenerateResource.Cache
