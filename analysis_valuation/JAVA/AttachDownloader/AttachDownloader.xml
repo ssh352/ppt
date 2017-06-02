@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project AttachDownloader with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="${dir.buildfile}/../.."/>
+    <property name="dir.jarfile" value="${dir.buildfile}/release"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/AttachDownLoader.jar">
+            <manifest>
+                <attribute name="Main-Class" value="email.AttachDownloader"/>
+                <attribute name="Class-Path" value=". AttachDownLoader_lib/dsn.jar AttachDownLoader_lib/gimap.jar AttachDownLoader_lib/imap.jar AttachDownLoader_lib/mailapi.jar AttachDownLoader_lib/pop3.jar AttachDownLoader_lib/smtp.jar AttachDownLoader_lib/commons-codec-1.4.jar AttachDownLoader_lib/commons-lang-2.6.jar AttachDownLoader_lib/fastjson-1.1.28.jar AttachDownLoader_lib/javax.mail.jar AttachDownLoader_lib/log4j-1.2.17.jar AttachDownLoader_lib/mysql-connector-java-5.1.34-bin.jar AttachDownLoader_lib/commons-io-2.4.jar AttachDownLoader_lib/javadbf.4.1.jar AttachDownLoader_lib/poi-3.12-20150511.jar AttachDownLoader_lib/commons-configuration-1.10.jar AttachDownLoader_lib/commons-codec-1.9.jar"/>
+            </manifest>
+            <fileset dir="${dir.buildfile}/bin"/>
+            <fileset dir="${dir.workspace}/java/Util/bin"/>
+        </jar>
+        <delete dir="${dir.jarfile}/AttachDownLoader_lib"/>
+    	<delete dir="${dir.jarfile}/conf"/>
+        <mkdir dir="${dir.jarfile}/AttachDownLoader_lib"/>
+    	<mkdir dir="${dir.jarfile}/conf"/>
+        <copy file="${dir.workspace}/java/lib/javamail1_4_7/dsn.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+        <copy file="${dir.workspace}/java/lib/javamail1_4_7/gimap.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+        <copy file="${dir.workspace}/java/lib/javamail1_4_7/imap.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+        <copy file="${dir.workspace}/java/lib/javamail1_4_7/mailapi.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+        <copy file="${dir.workspace}/java/lib/javamail1_4_7/pop3.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+        <copy file="${dir.workspace}/java/lib/javamail1_4_7/smtp.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+        <copy file="${dir.workspace}/java/lib/commons-codec-1.4.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+        <copy file="${dir.workspace}/java/Util/commons-lang-2.6.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+        <copy file="${dir.workspace}/java/Util/fastjson-1.1.28.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+        <copy file="${dir.workspace}/java/Util/javax.mail.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+        <copy file="${dir.workspace}/java/Util/log4j-1.2.17.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+        <copy file="${dir.workspace}/java/Util/mysql-connector-java-5.1.34-bin.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+        <copy file="${dir.workspace}/java/lib/commons-io-2.4.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+        <copy file="${dir.workspace}/java/lib/javadbf.4.1.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+        <copy file="${dir.workspace}/java/lib/poi-3.12-20150511.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+        <copy file="${dir.workspace}/java/lib/commons-configuration-1.10.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+        <copy file="${dir.workspace}/java/lib/commons-codec-1.9.jar" todir="${dir.jarfile}/AttachDownLoader_lib"/>
+    	<copy file="${dir.buildfile}/conf/email.properties" todir="${dir.jarfile}/conf"/>
+    </target>
+</project>
